@@ -5,6 +5,12 @@ Babble is a small utility that generates random words for you. I found this usef
 
 ![tower of babel](http://image.shutterstock.com/display_pic_with_logo/518173/140700250/stock-photo-tower-of-babel-first-variant-raster-variant-140700250.jpg)
 
+Changes
+-----
+
+This version does not have a platform dependent way of reading words unlike the original. As it can cuase some problems
+when a unix system does not have /usr/shared/dict/words. So it always uses the windows version.
+
 Usage
 -----
 
